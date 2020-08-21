@@ -1,0 +1,1 @@
+{"version":3,"file":"Cargo.d.ts","sourceRoot":"","sources":["../src/Cargo.ts"],"names":[],"mappings":"AAAA,cAAM,KAAK;IACT,MAAM,CAAC,wBAAwB,CAAC,GAAG,EAAE,MAAM,GAAG,MAAM;IAUpD,MAAM,CAAC,2BAA2B,CAAC,GAAG,EAAE,MAAM,EAAE,KAAK,EAAE,MAAM,GAAG,IAAI;CAGrE;AAED,eAAe,KAAK,CAAC"}
