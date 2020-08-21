@@ -1,0 +1,11 @@
+.DS_Store
+.AppleDouble
+.LSOverride
+
+.git
+.vscode
+.idea
+
+node_modules
+src
+tsconfig.json
