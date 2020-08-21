@@ -7,7 +7,12 @@
   "scripts": {
     "build": "tsc --project tsconfig.json"
   },
-  "author": "parksb",
+  "homepage": "https://github.com/parksb/snowball",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/parksb/snowball.git"
+  },
+  "author": "parksb <parkgds@gmail.com> (https://parksb.github.io/)",
   "license": "MIT",
   "dependencies": {
     "crypto-js": "^4.0.0",
