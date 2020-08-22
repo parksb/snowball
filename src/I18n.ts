@@ -35,4 +35,4 @@ class I18n {
   }
 }
 
-export default I18n;
+export { I18n, I18nLanguages, I18nText };

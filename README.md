@@ -4,6 +4,10 @@
 
 TypeScript utilities for miscellaneous projects.
 
+```bash
+$ npm install snowball-js --save
+```
+
 # License
 
 This project is licensed under the MIT License - see the LICENSE file for details.

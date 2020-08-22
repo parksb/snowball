@@ -1,6 +1,13 @@
-import Cargo from './Cargo';
+import Storage from './Storage';
 import Http from './Http';
-import I18n from './I18n';
+import { I18n, I18nLanguages, I18nText } from './I18n';
 import Secret from './Secret';
 
-export { Cargo, Http, I18n, Secret };
+export {
+  Storage,
+  Http,
+  I18n,
+  I18nLanguages,
+  I18nText,
+  Secret
+};
