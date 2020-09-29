@@ -18,14 +18,13 @@ class I18n {
   }
 
   static getUserLanguage(): I18nLanguages {
-    const { language } = navigator;
+    const language = navigator.language;
 
-    switch (language) {
-      case 'ko-KR':
+    if (language.startsWith(I18nLanguages.KO)) {
         return I18nLanguages.KO;
-      case 'en-US':
+    } else if (language.startsWith(I18nLanguages.EN)) {
         return I18nLanguages.EN;
-      default:
+    } else {
         return I18nLanguages.EN;
     }
   }
