@@ -12,14 +12,15 @@ class I18n {
         this.texts = texts;
     }
     static getUserLanguage() {
-        const { language } = navigator;
-        switch (language) {
-            case 'ko-KR':
-                return I18nLanguages.KO;
-            case 'en-US':
-                return I18nLanguages.EN;
-            default:
-                return I18nLanguages.EN;
+        const language = navigator.language;
+        if (language.startsWith(I18nLanguages.KO)) {
+            return I18nLanguages.KO;
+        }
+        else if (language.startsWith(I18nLanguages.EN)) {
+            return I18nLanguages.EN;
+        }
+        else {
+            return I18nLanguages.EN;
         }
     }
     text(key) {
