@@ -1,12 +1,6 @@
 class Storage {
-  static get(key: string): string {
-    const found = localStorage.getItem(key);
-
-    if (!found) {
-      throw new Error('Failed to load');
-    }
-
-    return found;
+  static get(key: string): string | null {
+    return localStorage.getItem(key);
   }
 
   static set(key: string, value: string): void {
